@@ -1,0 +1,7 @@
+.idea/
+.vs/
+/node_modules
+/uploads
+*.log
+!changes.log
+/configs/db.ini
