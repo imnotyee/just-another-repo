@@ -42,3 +42,21 @@
 - Зливаємо гілку master <code>git merge master</code>
 - Додамо всі нові зміни в індекс <code>git add .</code>
 - Комітимо зміни <code>git commit -m "Merge dev branch from master"</code>
+
+## Зливання гілки dev з гілкою master
+- Перемкнемося на гілку dev <code>git checkout dev</code>
+- Перевіримо статус змін гілки master <code>git status</code>
+- Якщо гілка має не зафіксовані зміни їх потрібно завіксувати!
+- Зливаємо гілку master <code>git merge master</code>
+- Додамо всі нові зміни в індекс <code>git add .</code>
+- Комітимо зміни <code>git commit -m "Merge dev branch from master"</code>
+
+## Видалення гілки need_delete
+- Створемо гілку для видалення <code>git branch need_delete</code>
+- Видалимо гілку <code>git branch --delete need_delete</code>
+- Додамо всі нові зміни в індекс <code>git add .</code>
+- Комітимо зміни <code>git commit -m "Delete branch need_delete"</code>
+
+## Створимо конфлікт зливання гілок
+- Додамо всі нові зміни в індекс <code>git add .</code>
+- Комітимо зміни <code>git commit -m "Created merge conflict"</code>
